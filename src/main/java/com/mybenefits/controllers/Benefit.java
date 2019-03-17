@@ -25,7 +25,7 @@ public class Benefit {
 			}
 			@GetMapping(value="/hello")
 			public String hello() {
-				return "hello : EDI- send data";
+				return "hello : EDI- ";
 			}
 			public static void process() {
 				XmlMapper mapper = new XmlMapper();
